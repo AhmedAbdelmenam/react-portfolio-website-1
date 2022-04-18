@@ -1,4 +1,5 @@
 {
+  "homebage": "https://AhmedAbdelmenam.github.io/react-portfolio-website-1/",
   "name": "react-portfolio-website-1",
   "version": "0.1.0",
   "private": true,
@@ -7,6 +8,7 @@
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
@@ -15,6 +17,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d buildnpm",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
